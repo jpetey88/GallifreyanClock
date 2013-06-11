@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    
+    android:columnCount="6"
+  android:background="@drawable/background"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:id="@+id/pos1"
+        android:contentDescription="blah"
+         android:layout_weight="1"
+        android:layout_height="match_parent" >
+    </ImageView>
+      <ImageView 
+          android:layout_width="wrap_content"
+        android:id="@+id/pos2"
+        android:contentDescription="blah"
+         android:layout_weight="1"
+        android:layout_height="match_parent" >
+    </ImageView>
+      <ImageView 
+          android:layout_width="wrap_content"
+        android:id="@+id/pos3"
+        android:contentDescription="blah"
+          android:layout_weight="1"
+        android:layout_height="match_parent" >
+    </ImageView>
+      <ImageView 
+          android:layout_width="wrap_content"
+        android:id="@+id/pos4"
+        android:contentDescription="blah"
+      android:layout_weight="1"
+        android:layout_height="match_parent" >
+    </ImageView>
+      <ImageView 
+          android:layout_width="wrap_content"
+        android:id="@+id/pos5"
+        android:contentDescription="blah" 
+        android:layout_weight="1"
+        android:layout_height="match_parent" >
+    </ImageView>
+      <ImageView 
+          android:layout_width="wrap_content"
+        android:id="@+id/pos6"
+        android:contentDescription="blah"
+       android:layout_weight="1"
+        android:layout_height="match_parent" >
+    </ImageView>
+  
+    
+    
+    
+    
+    
+    
+</LinearLayout>
+
