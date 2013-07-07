@@ -13,25 +13,26 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-      
-         <receiver
-        android:name=".GalefreyClock"
-        android:label="Galefreyan Clock" >
-        <intent-filter>
-            <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-        </intent-filter>
-<intent-filter>
-    <action android:name="com.jpetey88.GalifreyanClockUpdate" />
-	</intent-filter>
-        <meta-data
-            android:name="android.appwidget.provider"
-            android:resource="@xml/widget1_info" />
-    </receiver>
- 
-    
-         
-    </application>
+        <receiver
+            android:name=".GalefreyClock"
+            android:label="Galefreyan Clock" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.jpetey88.GalifreyanClockUpdate" />
+            </intent-filter>
 
-   
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget1_info" />
+        </receiver>
+        <activity android:name=".settings.SettingsActivity">
+           
+    <intent-filter>
+        <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+    </intent-filter>
+</activity>     
+    </application>
 
 </manifest>

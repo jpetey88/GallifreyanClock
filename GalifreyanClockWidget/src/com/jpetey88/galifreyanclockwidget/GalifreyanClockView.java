@@ -1,17 +1,22 @@
 package com.jpetey88.galifreyanclockwidget;
 
 import java.util.Calendar;
+import java.util.HashMap;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.util.SparseIntArray;
 import android.widget.ImageView;
 import android.widget.RemoteViews;
 
 public class GalifreyanClockView {
-	
-	
+		private SparseIntArray value = null;
+		public GalifreyanClockView(){
+			value = new SparseIntArray(6);
+			
+		}
 
 		public void update(RemoteViews views) {
 			 Calendar calendar = Calendar.getInstance();
@@ -50,34 +55,34 @@ public class GalifreyanClockView {
 			int resource  = 0;
 			switch(thing){
 			case 1:
-				resource = R.drawable.gale1;
+				resource = R.drawable.gale1bt;
 				break;
 			case 2:
-				resource = R.drawable.gale2;
+				resource = R.drawable.gale2bt;
 				break;
 			case 3:
-				resource = R.drawable.gale3;
+				resource = R.drawable.gale3bt;
 				break;
 			case 4:
-				resource = R.drawable.gale4;
+				resource = R.drawable.gale4bt;
 				break;
 			case 5:
-				resource = R.drawable.gale5;
+				resource = R.drawable.gale5bt;
 				break;
 			case 6:
-				resource = R.drawable.gale6;
+				resource = R.drawable.gale6bt;
 				break;
 			case 7:
-				resource = R.drawable.gale7;
+				resource = R.drawable.gale7bt;
 				break;
 			case 8:
-				resource = R.drawable.gale8;
+				resource = R.drawable.gale8bt;
 				break;
 			case 9:
-				resource = R.drawable.gale9;
+				resource = R.drawable.gale9bt;
 				break;
 			default:
-				resource  = R.drawable.gale1;
+				resource  = R.drawable.gale0bt;
 			
 			}
 			
