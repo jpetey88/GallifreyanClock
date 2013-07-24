@@ -2,7 +2,7 @@
 
 <LinearLayout
     
-    android:columnCount="6"
+    android:columnCount="8"
   android:background="@drawable/background"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
@@ -12,50 +12,51 @@
     <ImageView 
         android:layout_width="wrap_content"
         android:id="@+id/pos1"
-        android:contentDescription="blah"
+        android:contentDescription="@string/HoursPosition1"
          android:layout_weight="1"
         android:layout_height="match_parent" >
     </ImageView>
       <ImageView 
           android:layout_width="wrap_content"
         android:id="@+id/pos2"
-        android:contentDescription="blah"
+        android:contentDescription="@string/HoursPosition2"
          android:layout_weight="1"
         android:layout_height="match_parent" >
     </ImageView>
+    <TextView  android:layout_width="wrap_content"  android:layout_height="match_parent" android:gravity="fill" android:textColor="@color/text_color"  android:text = "@string/separator_string"  />
+     
+    
       <ImageView 
           android:layout_width="wrap_content"
         android:id="@+id/pos3"
-        android:contentDescription="blah"
+        android:contentDescription="@string/MinutesPosition1"
           android:layout_weight="1"
         android:layout_height="match_parent" >
     </ImageView>
       <ImageView 
           android:layout_width="wrap_content"
         android:id="@+id/pos4"
-        android:contentDescription="blah"
+        android:contentDescription="@string/MinutesPosition2"
       android:layout_weight="1"
         android:layout_height="match_parent" >
     </ImageView>
+       <TextView  android:layout_width="wrap_content"  android:layout_height="match_parent" android:gravity="fill"  android:textColor="@color/text_color"  android:text = "@string/separator_string"  />
+    
       <ImageView 
           android:layout_width="wrap_content"
         android:id="@+id/pos5"
-        android:contentDescription="blah" 
+        android:contentDescription="@string/SecondsPosition1" 
         android:layout_weight="1"
         android:layout_height="match_parent" >
     </ImageView>
       <ImageView 
           android:layout_width="wrap_content"
         android:id="@+id/pos6"
-        android:contentDescription="blah"
+        android:contentDescription="@string/SecondsPosition2"
        android:layout_weight="1"
         android:layout_height="match_parent" >
     </ImageView>
   
-    
-    
-    
-    
     
     
 </LinearLayout>

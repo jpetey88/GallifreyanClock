@@ -2,15 +2,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.jpetey88.galifreyanclockwidget"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="0.0.1" >
 
     <uses-sdk
         android:minSdkVersion="15"
         android:targetSdkVersion="17" />
-
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/awesome_icon"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <receiver
@@ -27,6 +26,7 @@
                 android:name="android.appwidget.provider"
                 android:resource="@xml/widget1_info" />
         </receiver>
+         
         <activity android:name=".settings.SettingsActivity">
            
     <intent-filter>

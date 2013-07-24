@@ -3,9 +3,10 @@
     android:minWidth="250dp"
     android:minHeight="40dp"
     android:updatePeriodMillis="1000"
-    android:initialLayout="@layout/widget1"
-    android:configure="com.jpetey88.galifreyanclockwidget.settings.SettingsActivity" 
+    android:initialLayout="@layout/defaultlayout"
+    android:previewImage="@drawable/widget_preview"
+    android:configure="com.jpetey88.galifreyanclockwidget.settings.SettingsActivity"
     >
-    
+      
     
 </appwidget-provider>
