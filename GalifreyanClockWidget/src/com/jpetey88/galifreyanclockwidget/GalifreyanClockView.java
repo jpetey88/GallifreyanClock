@@ -79,6 +79,9 @@ public class GalifreyanClockView {
 		        int minute = calendar.get(Calendar.MINUTE);
 		        int second = calendar.get(Calendar.SECOND);
 		        
+		        if (hour == 0)
+		       		hour = 12;
+		       		
 		        int firstHour = hour>9?1:0;
 		        int secondHour = hour %10;
 		        
