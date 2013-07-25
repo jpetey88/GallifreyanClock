@@ -17,6 +17,7 @@
         <item>blackWithClear</item>
         <item>blackWithWhite</item>
         <item>pink</item>
+        <item>tardisblue</item>
     </string-array>
 
     <color name="text_color">#000000</color>
@@ -48,5 +49,28 @@
         <item>@drawable/gale9</item>
     </array>
     
-
+    <array name = "pink">
+        <item>@drawable/gale0pt</item>
+        <item>@drawable/gale1pt</item>
+        <item>@drawable/gale2pt</item>
+        <item>@drawable/gale3pt</item>
+        <item>@drawable/gale4pt</item>
+        <item>@drawable/gale5pt</item>
+        <item>@drawable/gale6pt</item>
+        <item>@drawable/gale7pt</item>
+        <item>@drawable/gale8pt</item>
+        <item>@drawable/gale9pt</item>
+    </array>
+     <array name = "tardisblue">
+        <item>@drawable/gale0tbt</item>
+        <item>@drawable/gale1tbt</item>
+        <item>@drawable/gale2tbt</item>
+        <item>@drawable/gale3tbt</item>
+        <item>@drawable/gale4tbt</item>
+        <item>@drawable/gale5tbt</item>
+        <item>@drawable/gale6tbt</item>
+        <item>@drawable/gale7tbt</item>
+        <item>@drawable/gale8tbt</item>
+        <item>@drawable/gale9tbt</item>
+    </array>
 </resources>

@@ -37,7 +37,12 @@ public class GalifreyanClockView {
 				arr= context.getResources().obtainTypedArray(R.array.blackWithClear);
 			}else if("BlackWithWhite".compareToIgnoreCase(resource) ==0){
 				arr= context.getResources().obtainTypedArray(R.array.blackWithWhite);
-			}else{
+			}else if("pink".compareToIgnoreCase(resource) ==0){
+				arr= context.getResources().obtainTypedArray(R.array.pink);
+			}else if("tardisblue".compareToIgnoreCase(resource) ==0){
+				arr= context.getResources().obtainTypedArray(R.array.tardisblue);
+			}
+			else{
 				arr= context.getResources().obtainTypedArray(R.array.blackWithClear);
 			}
 			
